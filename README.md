@@ -27,7 +27,7 @@ Car-Rental-System/
 - Install [Git](https://git-scm.com/) (for cloning/pushing)  
 - Any IDE (VS Code, IntelliJ, Eclipse) or simple text editor
 
-Features
+## Features
 
 -Add and manage cars available for rent
 -Register customers and their rental records
@@ -38,7 +38,7 @@ Features
   -Polymorphism (method overriding/overloading)
   -Abstraction (system-level design)
 
-🚀 Future Improvements
+##🚀 Future Improvements
 
 -Database integration (MySQL/PostgreSQL) for persistent storage
 -Frontend interface using React.js
