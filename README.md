@@ -1,18 +1,45 @@
-## Getting Started
+# 🚗 Car Rental System (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple **Car Rental Management System** built using **Core Java (OOPs concepts)**.  
+This project allows customers to rent cars, manage rental data, and keep track of availability.  
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📂 Project Structure
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Car-Rental-System/
+│── src/ # Java source files
+│ ├── App.java # Main entry point
+│ ├── Car.java # Car entity class
+│ ├── Customer.java # Customer entity class
+│ ├── Rental.java # Rental details class
+│ └── CarRentalSystem.java # System manager class
+│
+│── bin/ # Compiled .class files (ignored in git)
+│── .gitignore # Git ignore rules
+│── README.md # Project documentation
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+--
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## ⚙️ Prerequisites
 
-## Dependency Management
+- Install [Java JDK 17+](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)  
+- Install [Git](https://git-scm.com/) (for cloning/pushing)  
+- Any IDE (VS Code, IntelliJ, Eclipse) or simple text editor
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Features
+
+-Add and manage cars available for rent
+-Register customers and their rental records
+-Rent cars and track availability
+-Demonstrates OOP concepts:
+  -Encapsulation (private fields + getters/setters)
+  -Inheritance (entities & system interaction)
+  -Polymorphism (method overriding/overloading)
+  -Abstraction (system-level design)
+
+🚀 Future Improvements
+
+-Database integration (MySQL/PostgreSQL) for persistent storage
+-Frontend interface using React.js
+-REST API backend with Spring Boot
