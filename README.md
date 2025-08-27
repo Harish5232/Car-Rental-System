@@ -79,14 +79,6 @@ If neither .env file nor environment variables are set, the app uses these defau
 
 `App.main` seeds three cars in the database at startup if they don't exist. You can adjust or remove that logic in `src/essentials/App.java`.
 
-### 5) Configuration debugging
-
-The app will show which configuration source it's using:
-- "Configuration loaded from .env file" - if .env file is found
-- "No .env file found, using default configuration" - if using defaults
-
-You can also call `Database.getCurrentConfig()` to see the current configuration being used.
-
 ### Notes
 
 - Tables created:
@@ -122,7 +114,6 @@ This project allows customers to rent cars, manage rental data, and keep track o
 
 ## 🚀 Future Improvements
 
-- Database integration (MySQL/PostgreSQL) for persistent storage
 - Frontend interface using React.js
 -REST API backend with Spring Boot
 >>>>>>> f7f5acccf350e8064f043a22379a66878af98cc7
