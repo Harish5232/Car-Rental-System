@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## CarRes - MySQL Setup
 
 This project now persists data to MySQL using JDBC. Follow the steps below to run it locally.
@@ -115,5 +115,5 @@ This project allows customers to rent cars, manage rental data, and keep track o
 ## 🚀 Future Improvements
 
 - Frontend interface using React.js
--REST API backend with Spring Boot
->>>>>>> f7f5acccf350e8064f043a22379a66878af98cc7
+- REST API backend with Spring Boot
+
