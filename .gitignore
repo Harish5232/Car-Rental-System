@@ -12,3 +12,6 @@ out/
 # Ignore IDE files
 *.iml
 .idea/
+
+# Ignore environment files
+.env
